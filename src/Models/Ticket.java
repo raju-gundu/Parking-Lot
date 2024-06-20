@@ -2,7 +2,7 @@ package Models;
 
 import java.util.Date;
 
-public class Ticket {
+public class Ticket extends BaseModel {
     private String ticketNumber;
     private Date entryTime;
     private Vehicle vehicle;

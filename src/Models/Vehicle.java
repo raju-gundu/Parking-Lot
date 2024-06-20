@@ -1,15 +1,15 @@
 package Models;
 
-public class Vehicle {
-    private int vehicleNumber;
+public class Vehicle extends BaseModel {
+    private String vehicleNumber;
     private VehicleType vehicleType;
     private String ownerName;
 
-    public int getVehicleNumber() {
+    public String getVehicleNumber() {
         return vehicleNumber;
     }
 
-    public void setVehicleNumber(int vehicleNumber) {
+    public void setVehicleNumber(String vehicleNumber) {
         this.vehicleNumber = vehicleNumber;
     }
 
